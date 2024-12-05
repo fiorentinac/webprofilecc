@@ -1,0 +1,224 @@
+body{
+    background-color: #f9fbff;
+}
+.login{
+    background-color: white;
+}
+
+/* CARD DATA KARYAWAN */
+.card{
+	background-color: #fff;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.10);
+}
+
+.card-md{
+	background-color: #fff;
+	width: 65%;
+	margin: 15px auto;
+	padding: 15px;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.10);
+}
+
+@media (max-width: 700px){
+	.card-md{
+      width: 100%;
+	}
+}
+
+.card-body{
+	position: relative;
+}
+
+.card-body .card-panel{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-body .card-panel .panel-header{
+	position: relative;
+	width: 75%;
+}
+
+.card-body .card-panel .panel-header p{
+	color: #7d7d7d;
+	font-size: 14px;
+}
+
+.card-body .card-panel .panel-header h2{
+	margin-top: 10px;
+}
+
+.card-body .card-panel .panel-icon{
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-title{
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.card-flex{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-flex-column{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 65%;
+   margin: auto;
+   padding: 40px 10px;
+}
+
+.card-col{
+	flex: 1;
+}
+
+.card-col .pencarian{
+	display: flex;
+	align-items: center;
+}
+
+.card-col .pencarian input{
+	margin-left: auto;
+	width: 60%;
+	padding: 10px 15px;
+	border: none;
+	background-color: #eeeeee;
+}
+
+.card-col .pencarian button{
+	padding: 10px 25px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #fff;
+	background-color: #3a66c1;
+}
+
+.card-md .card-body table.tb-detail_customer,
+.card-md .card-body table.tb-detail_order{
+	width: 85%;
+	position: relative;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.card-md .card-body .jdl-or{
+	width: 85%;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #3a66c1;
+}
+
+.card-md .card-body .details{
+	width: 85%;
+	margin: 15px auto 0;
+	font-size: 14px;
+}
+
+.tabel-karyawan{
+	border: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tabel-karyawan thead{
+	color: #ffffff;
+}
+
+.tabel-karyawan thead th{
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: left;
+	padding: 20px 15px;
+	background-color: #ff7a57;
+}
+
+.sticky{
+	position: sticky;
+	top: 0;
+}
+
+.tabel-karyawan tbody tr{
+	border-bottom: 1px solid #dddddd;
+}
+
+.tabel-karyawan tbody tr:nth-child(even){
+	background-color: #f7f7f7;
+}
+
+.tabel-karyawan tbody tr:last-child{
+	border-bottom: 0;
+}
+
+.tabel-karyawan tbody tr td{
+	padding: 5px 15px;
+	font-size: 13px;
+}
+
+
+.baris{
+	position: relative;
+	margin: 0 -15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.selamat-datang{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 15px;
+	margin: 30px 0 20px 0;
+}
+
+.selamat-datang .col-header{
+	flex: 1;
+}
+
+.selamat-datang .col-header .judul-sm{
+	font-size: 14px;
+	letter-spacing: .3px;
+}
+
+.selamat-datang .col-header .judul-sm span{
+	font-weight: bold;
+}
+
+.selamat-datang .col-header .judul-md{
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: .3px;
+}
+
+.txt-right{
+	text-align: right;
+}
+
+.selamat-datang .col-header a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
