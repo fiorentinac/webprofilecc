@@ -10,9 +10,9 @@ app.secret_key = 'many random bytes'
 
 #open conection
 db = connector.connect(
-    host = 'localhost',
+    host = '20.211.85.234',
     user = 'root',
-    passwd = '',
+    passwd = 'amikom12345:*',
     database = 'profilcc'
 )
 
