@@ -3,6 +3,7 @@ from flask import render_template
 from flask import request, redirect, url_for, session
 from mysql import connector
 from datetime import datetime
+import mysql.connector as connector
 
 
 app = Flask(__name__)
